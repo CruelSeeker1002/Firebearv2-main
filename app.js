@@ -15,8 +15,8 @@ app.get("/login", function(req, res) {
 app.get("/aboutus", function(req, res) {
     res.sendFile(__dirname + "/public/html/aboutus.html");
 });
-app.get("/register", function(req, res) {
-    res.sendFile(__dirname + "/public/html/register.html");
+app.get("/search", function(req, res) {
+    res.sendFile(__dirname + "/public/html/search.html");
 });
 
 app.listen(process.env.PORT || port, function() {
