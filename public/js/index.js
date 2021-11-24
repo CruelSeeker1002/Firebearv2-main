@@ -1,8 +1,13 @@
 function signUp() {
+console.log("In sign up method")
+    // var name = $('#signupName').val();
+    // var email = $('#signupEmail').val();
+    // var password = $('#signupPassword').val();
 
-    var name = $('#signupName').val();
-    var email = $('#signupEmail').val();
-    var password = $('#signupPassword').val();
+    var name = document.getElementById("signupName").value
+    var email = document.getElementById("signupEmail").value
+    var password = document.getElementById("signupPassword").value
+    console.log("In sign up method  got name " + name + " password=>"+password + "email=>"+email)
 
     if (!(name === "") && !(email === "") && !(password === "")) {
 
